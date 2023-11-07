@@ -1,0 +1,492 @@
+*{
+    
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins',sans-serif; 
+    box-sizing: border-box;
+    
+    
+}
+
+body{
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+    background: black;
+    color: #fff;
+}
+
+
+/*----------------Header Start-----------------*/
+
+
+
+.header{
+    width: 100%;
+    height: 90vh;
+    background-color: #fff;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7) ,rgba(0, 0, 0, 0.7)),url(header-image.jpg);
+    background-repeat: no-repeat;
+    border-bottom: 10px solid #2a2929;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .icon{
+    width: 174px;
+    margin-left: 190px;
+    margin-top: 25px;
+}
+
+nav .btn-box{
+    width: 324px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 189px;
+    margin-top: 28px;
+}
+
+nav select{
+    width: 144px;
+    height: 36px;
+    padding-left: 33px;
+    background: transparent;
+    font-size: 16px;
+    color: white;
+    letter-spacing: 1px;
+    margin-left: 60px;
+    border-radius: 5px;
+}
+
+nav .btn-2{
+    background-color: rgb(193, 17, 25);
+    border: 2px solid red;
+    color: rgb(255, 255, 255);
+    width: 90px;
+    height: 38px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+nav button img{
+    width: 12px;
+    margin-left: 15px;
+}
+
+
+
+.main-text{
+    margin: 200px;
+    height: 520px;
+    text-align: center;
+}
+
+.main-text h1{
+    font-size: 53px;
+    width: 1257px;
+    font-weight: 900;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+
+.main-text h1 span{
+    font-size: 48px;
+}
+
+.main-text p{
+    text-align: center;
+    font-size: 24px;
+    margin-top: 30px;
+    font-weight: 400;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+
+.main-text input{
+    width: 400px;
+    height: 58px;
+    margin: 20px 2px;
+    padding-left: 30px;
+    font-size: 23px;
+    background: transparent;
+    color: #fff;
+    border: 1px solid #6f6a6a;
+    border-radius: 5px;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+
+.main-text button{
+    height: 58px;
+    width: 250px;
+    border-radius: 5px;
+    font-size: 23px;
+    background: rgb(193, 17, 25);
+    color: #fff;
+    border: 1px;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(168, 19, 19);
+}
+
+
+
+
+/*------------------Section-1 Start----------------*/
+
+.sec-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 72vh;
+    border-bottom: 10px solid #2a2929;
+}
+
+.sec-1 .inner-box{
+    display: flex;
+    width: 1360px;
+    align-items: center;
+}
+
+.sec-1 .text{
+    padding-left: 40px;
+}
+
+.sec-1 .text h1{
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.sec-1 .text h3{
+    padding-top: 20px;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.sec-1 img{
+    width: 650px;
+}
+
+.sec-1 .vid{
+    z-index: -1;
+    overflow: hidden;
+    position: absolute;
+    top: 109%;
+    left: 57%;
+}
+
+
+
+
+
+
+
+/*------------------Section-2 Start----------------*/
+
+.sec-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 72vh;
+    border-bottom: 10px solid #2a2929;
+}
+
+.sec-2 .inner-box{
+    display: flex;
+    width: 1360px;
+    align-items: center;
+}
+
+.sec-2 .text{
+    padding-left: 40px;
+}
+
+.sec-2 .text h1{
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.sec-2 .text h3{
+    padding-top: 20px;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.sec-2 img{
+    width: 630px;
+}
+
+
+
+
+
+/*------------------Section-3 Start----------------*/
+
+.sec-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 72vh;
+    border-bottom: 10px solid #2a2929;
+}
+
+.sec-3 .inner-box{
+    display: flex;
+    width: 1360px;
+    align-items: center;
+}
+
+.sec-3 .text{
+    padding-left: 40px;
+}
+
+.sec-3 .text h1{
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.sec-3 .text h3{
+    padding-top: 20px;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.sec-3 img{
+    width: 730px;
+}
+
+.sec-3 .vid{
+    z-index: -1;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    max-width: 63%;
+    max-height: 47%;
+    position: absolute;
+    top: 243%;
+    left: 54%;
+}
+
+
+
+
+/*------------------Section-4 Start----------------*/
+
+.sec-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 72vh;
+    border-bottom: 10px solid #2a2929;
+}
+
+.sec-4 .inner-box{
+    display: flex;
+    width: 1360px;
+    align-items: center;
+}
+
+.sec-4 .text{
+    padding-left: 40px;
+}
+
+.sec-4 .text h1{
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.sec-4 .text h3{
+    padding-top: 20px;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.sec-4 img{
+    width: 630px;
+}
+
+
+
+
+
+/*---------------------faq Start-------------------*/
+
+.faq{
+    text-align: center;
+    border-bottom: 10px solid #2a2929;
+}
+
+.faq .inner-box{
+    margin: 100px;
+}
+
+.faq h1{
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+
+
+.accordian{
+    margin: 27px auto;
+    width: 100%;
+    max-width: 1300px;
+}
+
+.accordian li{
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+}
+
+.accordian li label{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 28px;
+    font-weight: 400;
+    background: #303030;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+
+label::after{
+    content: '+';
+    font-size: 70px;
+    right: 20px;
+    position: absolute;
+    font-weight: 200;
+    transition: trnsform 0.5s;
+}
+
+input[type="radio"]{
+    display: none;
+}
+
+.accordian .content{
+    background: #303030;
+    text-align: left;
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s, padding 0.5s;
+}
+
+.accordian p{
+    font-size: 25px;
+}
+
+.accordian input[type="radio"]:checked + label + .content{
+    max-height: 600px;
+    padding: 30px 20px;
+}
+
+.accordian input[type="radio"]:checked + label::after{
+    transform: rotate(135deg);
+}
+
+.faq h3{
+    text-align: center;
+    font-size: 24px;
+    margin-top: 30px;
+    font-weight: 400;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+
+.faq input{
+    width: 400px;
+    height: 58px;
+    margin: 20px 2px;
+    padding-left: 30px;
+    font-size: 23px;
+    background: transparent;
+    color: #fff;
+    border: 1px solid #6f6a6a;
+    border-radius: 5px;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+
+.faq button{
+    height: 58px;
+    width: 250px;
+    border-radius: 5px;
+    font-size: 23px;
+    background: rgb(193, 17, 25);
+    color: #fff;
+    border: 1px;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(168, 19, 19);
+}
+
+
+
+/*--------------------Footer Start-------------------*/
+
+.footer{
+    max-width: 76%;
+    margin: 4rem auto;
+    overflow: auto;
+}
+
+
+.footer a{
+    font-size: 1rem;
+    color: rgba(255,255,255,0.7);
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    font-weight: 600;
+}
+
+.footer p{
+    margin-bottom: 1.5rem;
+    color: rgba(255,255,255,0.7);
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.footer .footer-cols{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 2rem;
+}
+
+.footer ul{
+    list-style-type: none;
+}
+
+.footer li{
+    line-height: 2.4;
+}
+
+.footer select{
+    width: 144px;
+    height: 36px;
+    padding-left: 33px;
+    background: transparent;
+    font-size: 16px;
+    color: white;
+    letter-spacing: 1px;
+    margin: 20px 0px;
+    border-radius: 5px;
+}
+
+.footer h4{
+    font-weight: 500;
+}
